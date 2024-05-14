@@ -1,0 +1,10 @@
+[Unit]
+Description = Timer für Wasser trinken
+
+[Timer]
+OnCalendar  = *:0/20
+AccuracySec = 100ms
+Unit        = wasser.service
+
+[Install]
+WantedBy = multi-user.target

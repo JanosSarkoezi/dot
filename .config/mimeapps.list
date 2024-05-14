@@ -1,0 +1,11 @@
+[Default Applications]
+text/html=chromium_chromium.desktop
+x-scheme-handler/http=chromium_chromium.desktop
+x-scheme-handler/https=chromium_chromium.desktop
+x-scheme-handler/about=chromium_chromium.desktop
+x-scheme-handler/unknown=chromium_chromium.desktop
+inode/directory=org.gnome.baobab.desktop;
+application/pdf=zathura.desktop
+
+[Added Associations]
+text/plain=vim.desktop;

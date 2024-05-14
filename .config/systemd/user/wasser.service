@@ -1,0 +1,9 @@
+[Unit]
+Description = Wasser trinken
+
+[Service]
+Type      = oneshot
+ExecStart = /home/saj/.config/systemd/user/wasser.sh
+
+[Install]
+WantedBy = multi-user.target

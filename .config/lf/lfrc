@@ -1,0 +1,12 @@
+set hidden true
+set drawbox true
+set icons true
+set ignorecase true
+set findlen 3
+
+
+# map d
+
+map gc cd ~/.config
+map gl cd ~/.local
+# map dd $rm -fr $f
